@@ -1,0 +1,27 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "Music Bot",
+  "license": "MIT",
+  "author": "Telegram Account <@tmfik>",
+  "repository": {
+    "type": "HTTPS",
+    "url": "https://github.com/tmfik/music-bot.git",
+    "type": "CLI GitHub",
+    "url": "gh repo clone tmfik/music-bot"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.12.2"
+  },
+  "keywords": [
+    "music",
+    "audio",
+    "mp3"
+  ]
+}
